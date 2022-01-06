@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.task{
+    margin:200px auto;
+    width:400px;
+    height: auto;
+}
+
+.main-text{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-list {
+    text-align: center;
+}
+
+.input-list input{
+    margin-right: 10px;
+}
+
+.btn{		
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.add-text{
+    width: 150px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.task-list{
+    margin-top: 20px;
+    text-align: center;
+}
+.complete{
+    color: blue;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+li{
+    text-align: center;
+}
+
+
